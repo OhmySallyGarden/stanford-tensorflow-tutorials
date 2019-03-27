@@ -6,7 +6,7 @@ Prepared for the class CS 20SI: "TensorFlow for Deep Learning Research"
 cs20si.stanford.edu
 """
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+os.environ['TF_CPP_MIN_LOG_LEVEL']='0'
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,7 +55,6 @@ with tf.Session() as sess:
 			_, l = sess.run([optimizer, loss], feed_dict={X: x, Y:y}) 
 			total_loss += l
 		print('Epoch {0}: {1}'.format(i, total_loss/n_samples))
-
 	# close the writer when you're done using it
 	writer.close() 
 	
@@ -64,6 +63,7 @@ with tf.Session() as sess:
 
 # plot the results
 X, Y = data.T[0], data.T[1]
+print(X)
 plt.plot(X, Y, 'bo', label='Real data')
 plt.plot(X, X * w + b, 'r', label='Predicted data')
 plt.legend()
