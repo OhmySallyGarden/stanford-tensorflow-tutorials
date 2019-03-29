@@ -92,3 +92,4 @@ with tf.Session() as sess:
 		total_correct_preds += sum(accuracy_batch)
 	
 	print('Accuracy {0}'.format(total_correct_preds/mnist.test.num_examples))
+	writer.close()
