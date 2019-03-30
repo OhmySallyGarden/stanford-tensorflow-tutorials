@@ -15,7 +15,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 import time 
 
 import tensorflow as tf
-import tf.contrib.layers as layers
+import tensorflow.contrib.layers as layers
 from tensorflow.examples.tutorials.mnist import input_data
 
 import utils
@@ -24,7 +24,7 @@ N_CLASSES = 10
 
 # Step 1: Read in data
 # using TF Learn's built in function to load MNIST data to the folder data/mnist
-mnist = input_data.read_data_sets("/data/mnist", one_hot=True)
+mnist = input_data.read_data_sets("./data/mnist", one_hot=True)
 
 # Step 2: Define paramaters for the model
 LEARNING_RATE = 0.001

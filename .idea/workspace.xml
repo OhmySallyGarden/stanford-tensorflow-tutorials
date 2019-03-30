@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30de130-1726-4d44-8c92-610990d089e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017/examples/03_logistic_regression_mnist_starter.py" beforeDir="false" afterPath="$PROJECT_DIR$/2017/examples/03_logistic_regression_mnist_starter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2017/examples/07_convnet_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/2017/examples/07_convnet_mnist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,22 +11,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2017/examples/03_logistic_regression_mnist_starter.py">
+        <entry file="file://$PROJECT_DIR$/2017/examples/07_convnet_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="73" column="66" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
+            <state relative-caret-position="242">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="e#218#256#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2017/examples/03_logistic_regression_mnist_sol.py">
+        <entry file="file://$PROJECT_DIR$/2017/examples/07_convnet_mnist_starter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="56" column="10" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#216#1" />
+                <element signature="e#217#254#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2017/examples/05_csv_reader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-547" />
           </provider>
         </entry>
       </file>
@@ -43,21 +56,22 @@
         <option value="$PROJECT_DIR$/2017/examples/03_linear_regression_starter.py" />
         <option value="$PROJECT_DIR$/2017/examples/03_logistic_regression_mnist_sol.py" />
         <option value="$PROJECT_DIR$/2017/examples/03_logistic_regression_mnist_starter.py" />
+        <option value="$PROJECT_DIR$/2017/examples/07_convnet_mnist_starter.py" />
+        <option value="$PROJECT_DIR$/2017/examples/07_convnet_mnist.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
-    <option name="width" value="1015" />
-    <option name="height" value="1924" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,6 +94,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -98,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.03_logistic_regression_mnist_starter">
+  <component name="RunManager" selected="Python.07_convnet_mnist">
     <configuration name="03_linear_regression_sol" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stanford-tensorflow-tutorials" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,8 +177,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="07_convnet_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stanford-tensorflow-tutorials" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2017/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2017/examples/07_convnet_mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.07_convnet_mnist" />
         <item itemvalue="Python.03_logistic_regression_mnist_starter" />
         <item itemvalue="Python.03_linear_regression_starter" />
         <item itemvalue="Python.03_linear_regression_sol" />
@@ -184,19 +221,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1015" height="1924" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22278225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18558952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32999444" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.32999444" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32999444" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32999444" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.21839081" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39955482" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -349,8 +386,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2017/examples/03_logistic_regression_mnist_starter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="73" column="66" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
+        <state relative-caret-position="616">
+          <caret line="28" column="64" lean-forward="true" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/examples/07_basic_filters.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/examples/05_csv_reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-547" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/spinningup/lib/python3.6/__future__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/examples/07_convnet_mnist_starter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#216#1" />
+            <element signature="e#217#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/examples/07_convnet_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#218#256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
