@@ -43,7 +43,7 @@ with tf.name_scope('data'):
     X = tf.placeholder(tf.float32, [None, 784], name="X_placeholder")
     Y = tf.placeholder(tf.float32, [None, 10], name="Y_placeholder")
 
-dropout = tf.placeholder(tf.float32, name='dropout')
+    dropout = tf.placeholder(tf.float32, name='dropout')
 
 # Step 4 + 5: create weights + do inference
 # the model is conv -> relu -> pool -> conv -> relu -> pool -> fully connected -> softmax
